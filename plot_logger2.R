@@ -50,7 +50,7 @@ df_long_full <- df %>%
 ggplot(df_long_full, aes(x = DateTime, y = Temperature, color = Sensor)) +
   geom_line(size = 1) +
   labs(
-    title = "Burn Temperature - Full Time Series (Logger Fourteen)",
+    title = "Burn Temperature - Full Time Series (Logger 2)",
     x = "Date/Time",
     y = "Temperature (°F)",
     color = "Sensor"
@@ -80,7 +80,7 @@ df_long <- df_filtered %>%
 ggplot(df_long, aes(x = DateTime, y = Temperature, color = Sensor)) +
   geom_line(size = 1) +
   labs(
-    title = "Burn Temperature (Logger Fourteen)",
+    title = "Burn Temperature (Logger 2)",
     x = "Date/Time",
     y = "Temperature (°F)",
     color = "Sensor"
