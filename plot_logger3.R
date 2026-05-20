@@ -1,8 +1,6 @@
 # logger 3 data viz
 # burn occurred 11/9/25
 
-
-
 library(lubridate)
 library(dplyr)
 library(tidyr)
